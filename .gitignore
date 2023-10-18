@@ -1,0 +1,48 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+# Architecture-specific extensions/prefixes
+*.[568vq]
+*.md??
+*.net
+*.ttf
+*.DS_Store
+*.swp
+*.out
+
+# Output binary, replace "output_binary" with your output binary name
+output_binary
+
+# Dependency directories
+vendor/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Go specific
+*.exe
+*.test
+*.prof
+bin/
+pkg/
+
+# Mage targets
+.mage/
+
+*.work*

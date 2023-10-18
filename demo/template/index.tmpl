@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title id="title">GHOST-Stack Demo</title>
+
+    <script src="https://unpkg.com/htmx.org@1.9.6"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
+  </head>
+
+  <body>
+    <nav>
+      <a href="/login" hx-get="/login" hx-target="#main">Login</a>
+      <a href="/register" hx-get="/register" hx-target="#main">Register</a>
+    </nav>
+    <div id="main">
+      <h1 class="text-6xl">GHOST-Stack Demo</h1>
+    </div>
+  </body>
+</html>
