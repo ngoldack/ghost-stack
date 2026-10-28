@@ -1,10 +1,11 @@
 module github.com/ngoldack/ghost-stack
 
-go 1.21
+go 1.24
 
 require (
 	github.com/charmbracelet/bubbletea v0.24.2
-	github.com/go-chi/chi/v5 v5.0.10
+	github.com/go-chi/chi/v5 v5.4.0
+	github.com/surrealdb/surrealdb.go v0.2.1
 )
 
 require (
@@ -20,7 +21,6 @@ require (
 	github.com/muesli/reflow v0.3.0 // indirect
 	github.com/muesli/termenv v0.15.1 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
-	github.com/surrealdb/surrealdb.go v0.2.1 // indirect
 	golang.org/x/sync v0.1.0 // indirect
 	golang.org/x/sys v0.6.0 // indirect
 	golang.org/x/term v0.6.0 // indirect
